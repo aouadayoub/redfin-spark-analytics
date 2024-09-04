@@ -6,6 +6,13 @@ This project demonstrates how to perform data analysis on real estate data using
 
 In this project, I set up a PySpark environment to analyze real estate data from Redfin. The analysis includes comprehensive data cleaning, transformation, and visualization to uncover insights about property listings, pricing trends, and market dynamics. The project demonstrates my ability to handle large datasets and perform advanced data analytics using PySpark.
 
+
+## Architecture Overview
+
+The image below illustrates the architecture used in this project. Real estate data sourced from Redfin is processed using PySpark and Jupyter Notebook within an Amazon EMR cluster on AWS. This setup allows for scalable data processing and analysis. The processed data is then stored in an Amazon S3 bucket for further use and analysis. This integration of AWS services ensures efficient handling of large datasets and seamless data flow from source to storage.
+
+![Architecture Diagram](redfin_arch.png)
+
 ## Features
 
 - **Data Cleaning:** Removal of duplicates, handling missing values, and transforming data types to ensure the dataset is ready for analysis.
